@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF9FB"
+    tools:context=".aboutus">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="6dp"
+            android:id="@+id/backbtn"
+            android:src="@drawable/back"/>
+
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/header" />
+
+        <TextView
+            android:id="@+id/descript"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lovers_quarrel"
+            android:gravity="center"
+            android:text="Your book of Identities"
+            android:textColor="#0c1c43"
+            android:textSize="29sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/descript"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/mainheader"
+                android:layout_marginTop="40dp"
+                app:cardBackgroundColor="#ECF9FB"
+                app:cardCornerRadius="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="3.4" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/marcellus_sc"
+                        android:gravity="center"
+                        android:text="Developer"
+                        android:textColor="#0B4A53"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="3.65"
+                        android:background="#093F47" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:padding="12dp"
+                            android:src="@drawable/shikhar" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:fontFamily="@font/josefin_sans_semibold"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Shikhar Mehrotra\n\nCS IIITL\n\n(2019-2023)"
+                                android:textColor="#0D5863"
+                                android:textSize="17sp" />
+
+                            <ImageView
+                                android:id="@+id/linkedin"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="4"
+                                android:padding="12dp"
+                                android:src="@drawable/linkedin" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/mainheader"
+                android:layout_marginTop="40dp"
+                app:cardBackgroundColor="#ECF9FB"
+                app:cardCornerRadius="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="3.4" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/marcellus_sc"
+                        android:gravity="center"
+                        android:text="Pehchaan's Vision"
+                        android:textColor="#0B4A53"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="3.65"
+                        android:background="#093F47" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/josefin_sans_semibold"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Pehchaan is your book of identities that comes along with various other features to make your life more sorted and cheerful"
+                            android:textColor="#0D5863"
+                            android:textSize="17sp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:padding="12dp"
+                            android:src="@drawable/about2" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
